@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.box1 {
+    background-color: bisque;
+    width: cover;
+    height: 700px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0;
+    position: relative;
+}
+
+@keyframes anim {
+    0% {
+        color: firebrick;
+    }
+    25% {
+        color: sandybrown;
+    }
+    50% {
+        color: burlywood;
+    }
+    
+    75% {
+        color: coral;
+    }
+    100% {
+        color: firebrick;
+    }
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    line-height: 400px;
+    margin-left: 40%;
+    animation: anim 5s linear infinite;
+}
+
+img {
+    height: 40%;
+    border-radius: 150px;
+    margin: 10%;
+    
+}
+
+
+
+@keyframes anim2 {
+    0% {
+        color: darkgray;
+    }
+    50% {
+        color: aqua;
+    }
+    100% {
+        color: white;
+    }
+}
+
+h2 {
+    animation: anim2 3s linear infinite;
+}
+
+.box2 {
+    position: relative;
+    color: dimgrey;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: cadetblue;
+    width: cover;
+    height: cover;
+    margin: 10px;
+}
+
+.box2 > p {
+    margin: 10%;
+}
+
+
+.box2 > a > img {
+    width: 100px;
+    
+    
+}
+
+.box2 {
+background-color: antiquewhite;
+}
+
+.last {
+    background-color: white;
+}
