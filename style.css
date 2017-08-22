@@ -3,8 +3,9 @@ body {
     margin: 0;
 }
 
+
 .box1 {
-    background-color: bisque;
+    background-color: darkmagenta;
     width: cover;
     height: 700px;
     font-family: 'Josefin Sans', sans-serif;
@@ -35,15 +36,25 @@ h1 {
     position: absolute;
     text-align: center;
     font-size: 100px;
-    line-height: 400px;
     margin-left: 40%;
+    margin-top: 20%;
     animation: anim 5s linear infinite;
+    display: inline-block;
+    
+    
+  
 }
 
-img {
+.foto img {
     height: 40%;
     border-radius: 150px;
-    margin: 10%;
+    float: right;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+    
     
 }
 
@@ -67,14 +78,11 @@ h2 {
 
 .box2 {
     position: relative;
-    color: dimgrey;
-    font-size: 24px;
+    color: gainsboro;
+    font-size: 30px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: cadetblue;
-    width: cover;
-    height: cover;
-    margin: 10px;
+    margin: 20px;
 }
 
 .box2 > p {
@@ -89,9 +97,26 @@ h2 {
 }
 
 .box2 {
-background-color: antiquewhite;
+background-color: darkslategrey;
+    margin-bottom: cover;
+    padding-bottom: cover;
+}
+
+
+a {
+    color: darkorchid;
+}
+
+span {
+    color: darkorchid;
 }
 
 .last {
+
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
     background-color: white;
+    color: darkmagenta;
+    
 }
